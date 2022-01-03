@@ -7,11 +7,26 @@ workflows:
     name: Customers Report
     description: Workflow description
     author: null
-    createdAt: '2021-12-05 10:10:10'
-    language: scala
     mode: batch
+    language: scala
+    createdAt: '2021-12-05 10:10:10'
+    datasets:
+      inputs: []
+      outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: serita.schmeler@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-03 18:32:55'
     datasets:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Phylis_Schuster:
+    name: Phylis_Schuster
+    description: Really solid info
+    createdAt: '2022-01-03 18:32:55'
+    author: serita.schmeler@hotmail.com
